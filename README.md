@@ -1,1 +1,1 @@
-# usc.di.ionio.gr
+# iusci.ionio.gr
