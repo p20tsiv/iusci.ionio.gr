@@ -3,14 +3,21 @@
 <head>
     <meta charset="utf-8">
     <title>IUSCI 2024</title>
+    <!-- SEO Meta Tags -->
     <meta name="description" content="IUSCI - Student Conference in Informatics">
     <meta name="keywords" content="ionian university, student conference, informatics, IUSCI, research, technology, innovation, computer science, academic event, networking, interdisciplinary collaboration">
     <meta name="author" content="IUSCI Web Development Team">
+    <!-- Viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Styles CSS files -->
     <link rel="stylesheet" type="text/css" href="./src/css/basic.css">
     <!-- Color Switcher -->
+    <script async="" src="https://www.googletagmanager.com/gtm.js?id=blank"></script>
     <script src="./src/js/color-switcher.js"></script>
+    <!-- Vendor Styling -->
+    <link rel="stylesheet" media="screen" href="./src/vendor/boxicons/css/boxicons.min.css">
+    <link rel="stylesheet" media="screen" href="./vendor/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" media="screen" href="./vendor/lightgallery/css/lightgallery-bundle-min.css">
     <!-- Loading Style -->
     <style>
     
@@ -101,7 +108,7 @@
      }
 
     </style>
-    <!-- Scripts -->
+    <!-- Loading Script -->
     <script>  
       (function () {
         window.onload = function () {
@@ -114,9 +121,15 @@
       })();
     </script>
     
-     
 </head>
 <body>
+    <!-- Page loading spinner -->
+    <div class="page-loading active">
+      <div class="page-loading-inner">
+        <div class="page-spinner"></div><span>Loading...</span>
+      </div>
+    </div>
+    
     <header>
         <h1>Welcome to IUSCI 2024</h1>
     </header>
@@ -128,5 +141,8 @@
     <footer>
         <p>&copy; 2024 IUSCI. All rights reserved.</p>
     </footer>
+
+    <!-- Main Theme Script -->
+    <script src="./src/js/theme.min.js"></script>
 </body>
 </html>
