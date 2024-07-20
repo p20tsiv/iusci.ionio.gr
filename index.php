@@ -88,7 +88,7 @@
       animation: spinner .75s linear infinite;
      }
 
-     [data-bs-theme="dark"] .page-spinner {
+     [data-bs-theme="light"] .page-spinner {
       border-color: rgba(255,255,255,.4);
       border-right-color: transparent;
      }
@@ -129,7 +129,7 @@
         <div class="page-spinner"></div><span>Loading...</span>
       </div>
     </div>
-    
+
     <header>
         <h1>Welcome to IUSCI 2024</h1>
     </header>
